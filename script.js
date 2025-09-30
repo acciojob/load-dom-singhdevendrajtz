@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // Check if the body has any child elements. A length of 0 confirms it is empty.
 	  document.body.innerHTML="";
 		
-    document.body.appendChild(document.createTextNode("DOM load success"));
-	console.log(document.body)
+    document.body.append("DOM load success");
+	console.log(document.body);
+	
 });
 
